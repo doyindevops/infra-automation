@@ -35,9 +35,9 @@ tfsec:
   stage: test
   image:
     name: aquasec/tfsec:latest
-    entrypoint: [ "" ] 
+    entrypoint: [ "" ]
   script:
-    - tfsec . --format json --out tfsec.json  
+    - tfsec . --format json --out tfsec.json
   allow_failure: true
   artifacts:
     when: always
@@ -58,3 +58,8 @@ deploy:
     - terraform apply -input=false "planfile"
   when: manual
 
+destroy:
+  stage: deploy
+  script:
+    - terraform destroy -auto-approve
+  when: manual
