@@ -1,8 +1,8 @@
 ## README.md
 
-### Infrastructure Provisioning with Terraform on GitHub (GitOps)
+### Infrastructure Provisioning with Terraform on GitHub (GitOps & DevSecOps)
 
-This repository contains Terraform configurations and GitHub Actions workflows used to provision and manage AWS infrastructure following GitOps principles. The setup ensures that infrastructure changes are automated, version-controlled, and reliable.
+This repository contains Terraform configurations and GitHub Actions workflows integrated with comprehensive security tests, used to provision and manage AWS infrastructure following GitOps principles. This setup ensures that all infrastructure changes are automated, version-controlled, and reliable, adhering to the highest standards of DevSecOps practices.
 
 ---
 
@@ -15,8 +15,7 @@ This repository contains Terraform configurations and GitHub Actions workflows u
 5. [Terraform Configuration](#terraform-configuration)
 6. [Usage](#usage)
 7. [Manual Trigger](#manual-trigger)
-8. [Contributing](#contributing)
-9. [License](#license)
+
 
 ---
 
