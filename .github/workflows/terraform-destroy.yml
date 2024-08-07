@@ -59,4 +59,5 @@ jobs:
           -v $(pwd):/workspace \
           -w /workspace \
           hashicorp/terraform:latest destroy -auto-approve
+          
 
