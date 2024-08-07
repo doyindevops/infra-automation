@@ -1,5 +1,7 @@
 ## README.md
 
+### Project By Adedoyin Ekong 
+
 ### Infrastructure Provisioning with Terraform on GitHub (GitOps & DevSecOps)
 
 This repository contains Terraform configurations and GitHub Actions workflows integrated with comprehensive security tests, used to provision and manage AWS infrastructure following GitOps principles. This setup ensures that all infrastructure changes are automated, version-controlled, and reliable, adhering to the highest standards of DevSecOps practices.
