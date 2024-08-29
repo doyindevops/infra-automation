@@ -1,6 +1,8 @@
+[![Terraform CI/CD Pipeline](https://github.com/doyindevops/infra-automation/actions/workflows/github-ci.yml/badge.svg)](https://github.com/doyindevops/infra-automation/actions/workflows/github-ci.yml)
 
 
 ### Project By Adedoyin Ekong
+
 
 #### **Infrastructure Provisioning with Terraform on GitHub (GitOps & DevSecOps)**
 
